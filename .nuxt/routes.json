@@ -1,0 +1,372 @@
+[
+  {
+    "name": "home___default",
+    "path": "/default",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Home.vue",
+    "_name": "_ec11b490"
+  },
+  {
+    "name": "home___german",
+    "path": "/german",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Home.vue",
+    "_name": "_ec11b490"
+  },
+  {
+    "name": "cart___default",
+    "path": "/default/cart",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Cart.vue",
+    "_name": "_236cc7a4"
+  },
+  {
+    "name": "checkout___default",
+    "path": "/default/checkout",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___default",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Billing.vue",
+        "_name": "_47ae94c0"
+      },
+      {
+        "path": "payment",
+        "name": "payment___default",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Payment.vue",
+        "_name": "_7ad807ab"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___default",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Shipping.vue",
+        "_name": "_2eaf964e"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___default",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/ThankYou.vue",
+        "_name": "_5b93ff00"
+      },
+      {
+        "path": "user-account",
+        "name": "user-account___default",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/UserAccount.vue",
+        "_name": "_8b35b5f2"
+      }
+    ],
+    "_name": "_5be4c054"
+  },
+  {
+    "name": "Cms___default",
+    "path": "/default/Cms",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Cms.vue",
+    "chunkName": "pages/Cms",
+    "_name": "_01092580"
+  },
+  {
+    "name": "customer___default",
+    "path": "/default/customer",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyAccount.vue",
+    "meta": {
+      "titleLabel": "My Account"
+    },
+    "children": [
+      {
+        "name": "customer-addresses-details___default",
+        "path": "addresses-details",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressesDetails.vue",
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_24b1540a"
+      },
+      {
+        "name": "customer-my-newsletter___default",
+        "path": "my-newsletter",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyNewsletter.vue",
+        "meta": {
+          "titleLabel": "My newsletter"
+        },
+        "_name": "_5f09a689"
+      },
+      {
+        "name": "customer-my-profile___default",
+        "path": "my-profile",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyProfile/MyProfile.vue",
+        "meta": {
+          "titleLabel": "My profile"
+        },
+        "_name": "_b6223492"
+      },
+      {
+        "name": "customer-my-reviews___default",
+        "path": "my-reviews",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyReviews.vue",
+        "meta": {
+          "titleLabel": "My reviews"
+        },
+        "_name": "_c7a2ef0a"
+      },
+      {
+        "name": "customer-my-wishlist___default",
+        "path": "my-wishlist",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyWishlist.vue",
+        "meta": {
+          "titleLabel": "My wishlist"
+        },
+        "_name": "_2e5100d6"
+      },
+      {
+        "name": "customer-order-history___default",
+        "path": "order-history",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/OrderHistory/OrderHistory.vue",
+        "meta": {
+          "titleLabel": "Order history"
+        },
+        "_name": "_5408f73b"
+      },
+      {
+        "name": "customer-addresses-details-new___default",
+        "path": "addresses-details/create",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressNew.vue",
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_7b4b19f2"
+      },
+      {
+        "name": "reset-password___default",
+        "path": "/default/reset-password",
+        "alias": "/customer/account/createPassword",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/ResetPassword.vue",
+        "_name": "_47610136"
+      },
+      {
+        "name": "customer-addresses-details-edit___default",
+        "path": "addresses-details/edit/:addressId",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressEdit.vue",
+        "props": true,
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_ce0e029a"
+      },
+      {
+        "name": "customer-single-order___default",
+        "path": "order-history/:orderId",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/OrderHistory/SingleOrder/SingleOrder.vue",
+        "props": true,
+        "meta": {
+          "titleLabel": "Order history"
+        },
+        "_name": "_a3e58e50"
+      }
+    ],
+    "_name": "_7db4c58d"
+  },
+  {
+    "name": "Faq___default",
+    "path": "/default/Faq",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Faq.vue",
+    "chunkName": "pages/Faq",
+    "_name": "_e9b4fe66"
+  },
+  {
+    "name": "Home___default",
+    "path": "/default/Home",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_ec11b490"
+  },
+  {
+    "name": "Page___default",
+    "path": "/default/Page",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Page.vue",
+    "chunkName": "pages/Page",
+    "_name": "_4ba78930"
+  },
+  {
+    "name": "cart___german",
+    "path": "/german/cart",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Cart.vue",
+    "_name": "_236cc7a4"
+  },
+  {
+    "name": "checkout___german",
+    "path": "/german/checkout",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___german",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Billing.vue",
+        "_name": "_47ae94c0"
+      },
+      {
+        "path": "payment",
+        "name": "payment___german",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Payment.vue",
+        "_name": "_7ad807ab"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___german",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/Shipping.vue",
+        "_name": "_2eaf964e"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___german",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/ThankYou.vue",
+        "_name": "_5b93ff00"
+      },
+      {
+        "path": "user-account",
+        "name": "user-account___german",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/checkout/pages/Checkout/UserAccount.vue",
+        "_name": "_8b35b5f2"
+      }
+    ],
+    "_name": "_5be4c054"
+  },
+  {
+    "name": "Cms___german",
+    "path": "/german/Cms",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Cms.vue",
+    "chunkName": "pages/Cms",
+    "_name": "_01092580"
+  },
+  {
+    "name": "customer___german",
+    "path": "/german/customer",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyAccount.vue",
+    "meta": {
+      "titleLabel": "My Account"
+    },
+    "children": [
+      {
+        "name": "customer-addresses-details___german",
+        "path": "addresses-details",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressesDetails.vue",
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_24b1540a"
+      },
+      {
+        "name": "customer-my-newsletter___german",
+        "path": "my-newsletter",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyNewsletter.vue",
+        "meta": {
+          "titleLabel": "My newsletter"
+        },
+        "_name": "_5f09a689"
+      },
+      {
+        "name": "customer-my-profile___german",
+        "path": "my-profile",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyProfile/MyProfile.vue",
+        "meta": {
+          "titleLabel": "My profile"
+        },
+        "_name": "_b6223492"
+      },
+      {
+        "name": "customer-my-reviews___german",
+        "path": "my-reviews",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyReviews.vue",
+        "meta": {
+          "titleLabel": "My reviews"
+        },
+        "_name": "_c7a2ef0a"
+      },
+      {
+        "name": "customer-my-wishlist___german",
+        "path": "my-wishlist",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/MyWishlist.vue",
+        "meta": {
+          "titleLabel": "My wishlist"
+        },
+        "_name": "_2e5100d6"
+      },
+      {
+        "name": "customer-order-history___german",
+        "path": "order-history",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/OrderHistory/OrderHistory.vue",
+        "meta": {
+          "titleLabel": "Order history"
+        },
+        "_name": "_5408f73b"
+      },
+      {
+        "name": "customer-addresses-details-new___german",
+        "path": "addresses-details/create",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressNew.vue",
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_7b4b19f2"
+      },
+      {
+        "name": "reset-password___german",
+        "path": "/german/reset-password",
+        "alias": "/customer/account/createPassword",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/ResetPassword.vue",
+        "_name": "_47610136"
+      },
+      {
+        "name": "customer-addresses-details-edit___german",
+        "path": "addresses-details/edit/:addressId",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/AddressesDetails/AddressEdit.vue",
+        "props": true,
+        "meta": {
+          "titleLabel": "Addresses details"
+        },
+        "_name": "_ce0e029a"
+      },
+      {
+        "name": "customer-single-order___german",
+        "path": "order-history/:orderId",
+        "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/modules/customer/pages/MyAccount/OrderHistory/SingleOrder/SingleOrder.vue",
+        "props": true,
+        "meta": {
+          "titleLabel": "Order history"
+        },
+        "_name": "_a3e58e50"
+      }
+    ],
+    "_name": "_7db4c58d"
+  },
+  {
+    "name": "Faq___german",
+    "path": "/german/Faq",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Faq.vue",
+    "chunkName": "pages/Faq",
+    "_name": "_e9b4fe66"
+  },
+  {
+    "name": "Home___german",
+    "path": "/german/Home",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_ec11b490"
+  },
+  {
+    "name": "Page___german",
+    "path": "/german/Page",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Page.vue",
+    "chunkName": "pages/Page",
+    "_name": "_4ba78930"
+  },
+  {
+    "name": "page___default",
+    "path": "/default/:slug+",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Page.vue",
+    "_name": "_4ba78930"
+  },
+  {
+    "name": "page___german",
+    "path": "/german/:slug+",
+    "component": "/Users/sergiikirianov/work/vsf/vsf-deploy-article/pages/Page.vue",
+    "_name": "_4ba78930"
+  }
+]
