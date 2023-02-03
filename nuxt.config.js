@@ -25,12 +25,12 @@ const {
 // Client side middleware url
 const middlewareUrl = process.env.NODE_ENV === 'production'
   ? process.env.API_BASE_URL
-  : 'https://localhost:8181';
+  : 'http://localhost:8181';
 
 // Server side middleware url
 const ssrMiddlewareUrl = process.env.NODE_ENV === 'production'
   ? process.env.API_SSR_BASE_URL
-  : 'https://localhost:8181';
+  : 'http://localhost:8181';
 
 export default async () => {
   const baseConfig = {
